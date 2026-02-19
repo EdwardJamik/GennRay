@@ -1068,7 +1068,7 @@ main {
 .tarif_question .container .select_tarif .question-list .question-item .question_answer input[type=radio]:checked::after {
   content: "";
   position: absolute;
-  top: 1.5px;
+  top: 0.5px;
   left: 0.8px;
   width: 10px;
   height: 10px;
