@@ -1068,12 +1068,13 @@ main {
 .tarif_question .container .select_tarif .question-list .question-item .question_answer input[type=radio]:checked::after {
   content: "";
   position: absolute;
-  top: 0.5px;
-  left: 0.8px;
+  top: 50%;
+  left: 50%;
   width: 10px;
   height: 10px;
   background: #4c17d3;
   border-radius: 50%;
+  transform: translate(-50%, -50%);
 }
 .tarif_question .container .select_tarif .question-list .question-item .question_answer:not(:last-child) {
   margin-bottom: 4px;
