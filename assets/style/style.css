@@ -1135,6 +1135,10 @@ main {
   min-height: 60px;
   padding-left: 22px;
 }
+.tarif_question .container .select_tarif .question-list .question-item .question_answer .radio b {
+  font-weight: 700;
+  color: #4c17d3;
+}
 .tarif_question .container .select_tarif .question-list .question-item .question_answer p {
   font-weight: 400;
   font-size: 12px;
@@ -1320,9 +1324,21 @@ main {
   position: relative;
   padding: 24px 16px 24px;
   background: #ffffff;
-  max-width: 300px;
+  max-width: 390px;
   width: 100%;
   border-radius: 24px;
+}
+.popup .container .content .close-button {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 16px;
+  height: 16px;
+  background-image: url("../images/close_button.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: transparent;
 }
 .popup .container .content > svg {
   margin: 0 auto;
@@ -1352,6 +1368,9 @@ main {
   -webkit-text-fill-color: transparent;
 }
 .popup .container .content .description {
+  margin-bottom: 20px;
+}
+.popup .container .content .description ul li {
   font-weight: 400;
   font-size: 12px;
   line-height: 130%;
@@ -1359,7 +1378,6 @@ main {
   text-align: center;
   text-transform: uppercase;
   color: rgba(13, 13, 13, 0.5019607843);
-  margin-bottom: 20px;
 }
 .popup .container .content .des-out {
   position: relative;
@@ -1437,6 +1455,15 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.popup .container .content .button-list a {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .tariff-calculator {

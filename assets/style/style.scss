@@ -1142,6 +1142,11 @@ main {
               min-height: 60px;
               padding-left: 22px;
               // margin-bottom: 8px;
+
+              & b {
+                font-weight: 700;
+                color: #4c17d3;
+              }
             }
 
             & p {
@@ -1348,9 +1353,22 @@ main {
       position: relative;
       padding: 24px 16px 24px;
       background: #ffffff;
-      max-width: 300px;
+      max-width: 390px;
       width: 100%;
       border-radius: 24px;
+
+      & .close-button {
+        position: absolute;
+        top: 24px;
+        right: 24px;
+        width: 16px;
+        height: 16px;
+        background-image: url("../images/close_button.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        background-color: transparent;
+      }
 
       & > svg {
         margin: 0 auto;
@@ -1384,14 +1402,20 @@ main {
       }
 
       & .description {
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 130%;
-        letter-spacing: 0%;
-        text-align: center;
-        text-transform: uppercase;
-        color: #0d0d0d80;
         margin-bottom: 20px;
+
+        & ul {
+          & li {
+            // list-style: disc;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 130%;
+            letter-spacing: 0%;
+            text-align: center;
+            text-transform: uppercase;
+            color: #0d0d0d80;
+          }
+        }
       }
 
       & .des-out {
@@ -1480,6 +1504,16 @@ main {
           display: flex;
           align-items: center;
           justify-content: center;
+        }
+
+        & a {
+          margin-top: 20px;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 140%;
+          letter-spacing: 0%;
+          text-align: center;
+          text-decoration: underline;
         }
       }
 
