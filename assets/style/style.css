@@ -766,6 +766,9 @@ main {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.tarifs .container .content .tarif_list .tarif_item .title.fs-26 {
+  font-size: 26px;
+}
 .tarifs .container .content .tarif_list .tarif_item span {
   font-family: "Inter";
   font-weight: 400;

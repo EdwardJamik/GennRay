@@ -706,6 +706,10 @@ main {
             background: linear-gradient(90deg, #4c17d3 28.65%, #8969db 69.97%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+
+            &.fs-26 {
+              font-size: 26px;
+            }
           }
 
           & span {
